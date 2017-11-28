@@ -128,7 +128,8 @@ BEGIN
 								writeln('Opcion invalida');
 							END;
 						END;
-					else BEGIN
+				END; //FOR END
+				else BEGIN
 					writeln('Puesto ' , i , ' lleno');
 					writeln('buscando uno vacio');
 					END;
